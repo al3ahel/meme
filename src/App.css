@@ -1,0 +1,59 @@
+:root {
+  --primary: #6366f1;
+  --primary-hover: #4f46e5;
+  --background: #f8fafc;
+  --card-bg: #ffffff;
+  --text: #1e293b;
+  --text-light: #64748b;
+}
+
+/* Previous styles remain the same */
+
+.wallet-details {
+  margin-top: 2rem;
+  background: var(--card-bg);
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.wallet-section {
+  margin: 2rem 0;
+}
+
+.wallet-section h4 {
+  margin-bottom: 1rem;
+  color: var(--text-light);
+}
+
+.wallet-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.wallet-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.wallet-section li:last-child {
+  border-bottom: none;
+}
+
+.wallet-section button {
+  background: var(--primary);
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.wallet-section button:hover {
+  background: var(--primary-hover);
+}
